@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="2"
+        app:rowCount="2"
+        app:orientation="horizontal">
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:background="#5F9EA0"
+            android:layout_height="110dp"
+            android:layout_width="110dp">
+        <RelativeLayout
+                android:id="@+id/kiri1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/menu"
+                    android:src="@drawable/bell"/>
+            <TextView
+                    android:id="@+id/txt_bell"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/menu"
+                    android:text="Notification"
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:background="#D2691E">
+
+        <RelativeLayout
+                android:id="@+id/kanan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/job"
+                    android:src="@drawable/mail"/>
+            <TextView
+                    android:id="@+id/txt_job"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/job"
+                    android:layout_centerHorizontal="true"
+                    android:text="Message"
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:background="#CD5C5C">
+
+        <RelativeLayout
+                android:id="@+id/kiri2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/notif"
+                    android:src="@drawable/mugsmall"/>
+            <TextView
+                    android:id="@+id/txt_mug"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/notif"
+                    android:layout_centerHorizontal="true"
+                    android:text="Menu"
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:background="#B8860B">
+
+        <RelativeLayout
+                android:id="@+id/kanan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/mail"
+                    android:src="@drawable/pin"/>
+            <TextView
+                    android:id="@+id/txt_mail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mail"
+                    android:layout_centerHorizontal="true"
+                    android:text="Store Location"
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:background="#2E8B57">
+
+        <RelativeLayout
+                android:id="@+id/kiri3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/rate"
+                    android:src="@drawable/star"/>
+            <TextView
+                    android:id="@+id/txt_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rate"
+                    android:layout_centerHorizontal="true"
+                    android:text="Rate Card"
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:layout_height="110dp"
+            android:layout_width="110dp"
+            android:background="#BC8F8F">
+
+        <RelativeLayout
+                android:id="@+id/kanan3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/rev"
+                    android:src="@drawable/like"/>
+            <TextView
+                    android:id="@+id/txt_rev"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rev"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#FFFFFF"
+                    android:text="Review"
+
+                    android:fontFamily="@font/annie_use_your_telescope"/>
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.gridlayout.widget.GridLayout>
